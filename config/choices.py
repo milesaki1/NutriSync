@@ -9,6 +9,11 @@ class TipoComida(models.TextChoices):
     SNACK = "SN", "Snack"
 
 
+class Sexo(models.TextChoices):
+    MASCULINO = "M", "Masculino"
+    FEMENINO = "F", "Femenino"
+
+
 class NivelActividad(models.TextChoices):
     SEDENTARIO = "SE", "Sedentario"
     LIGERO = "LI", "Ligero"
