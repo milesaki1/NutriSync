@@ -1,0 +1,12 @@
+.env
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+.DS_Store
+staticfiles/
+PLAN_CONSTRUCCION.md
+database/BASE_DE_DATOS.md
+database/schema.sql
